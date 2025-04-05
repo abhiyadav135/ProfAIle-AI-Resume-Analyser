@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profAile - Resume Analysis</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <input type="file" id="resume-upload" accept=".pdf,.doc,.docx" class="hidden">
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">profAile</div>
+            
+            <div class="nav-items">
+                <div class="dropdown">
+                    <button class="dropbtn">Product</button>
+                    <div class="dropdown-content">
+                        <a href="#">Feature 1</a>
+                        <a href="#">Feature 2</a>
+                        <a href="#">Feature 3</a>
+                    </div>
+                </div>
+                
+                <div class="dropdown">
+                    <button class="dropbtn">Resources</button>
+                    <div class="dropdown-content">
+                        <a href="#">Docs</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Help</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">About Us</button>
+                    <div class="dropdown-content">
+                        <a href="#">Team</a>
+                        <a href="#">History</a>
+                        <a href="#">Values</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Contact Us</button>
+                    <div class="dropdown-content">
+                        <a href="#">Email</a>
+                        <a href="#">Social Media</a>
+                        <a href="#">Form</a>
+                    </div>
+                </div>
+            </div>
+
+            <button class="signin-btn">Sign In</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Add your content here -->
+        <main>
+            <!-- Hero Section -->
+            <div class="glass-section">
+                <img src="file_2025-04-05_08.11.35.png" alt="Resume analysis interface">
+                <div class="content-wrapper">
+                    <h2>AI-Powered Resume Analysis</h2>
+                    <p>Our advanced system evaluates your resume using 8 key parameters, 
+                    providing detailed feedback and suggestions to help you stand out 
+                    to employers.</p>
+                    <div class="rating">
+                        <span class="stars">★★★★</span>
+                        <span>202 reviews</span>
+                    </div>
+                    <button class="scan-btn" id="scan-button">
+                        Scan Your Resume
+                      </button>
+                        <input type="file" id="hidden-file-input" accept=".pdf,.doc,.docx" style="display: none;">
+                </div>
+            </div>
+
+            <div class="split-section">
+                <!-- Text Half -->
+                <div class="text-half">
+                    <h2>Get Instant Resume Feedback</h2>
+                    <p>Our AI analyzes your resume against top industry standards and provides actionable suggestions to improve your chances of getting noticed by recruiters.</p>
+                    
+                    <ul style="margin: 1.5rem 0; padding-left: 1.5rem;">
+                        <li>ATS compatibility score</li>
+                        <li>Keyword optimization</li>
+                        <li>Formatting suggestions</li>
+                        <li>Skills gap analysis</li>
+                    </ul>
+                    
+                    <!-- Upload Box -->
+                    <div class="upload-box">
+                        <p>Drag & drop your resume here or</p>
+                        <input type="file" id="resume-upload" accept=".pdf,.doc,.docx" style="display: none;">
+                        <button class="upload-btn" id="split-upload-button">
+                            Upload Resume
+                          </button>
+                        <p style="font-size: 0.8rem; margin-top: 0.5rem;">Supports: PDF, DOC, DOCX (Max 5MB)</p>
+                    </div>
+                </div>
+                
+                <!-- Image Half - Now covers full half -->
+                <div class="image-half">
+                    <img src="pic.png" alt="Resume analysis dashboard preview">
+                </div>
+            </div>
+            <!-- Third Section -->
+<div class="benefits-section">
+    <h2 class="section-title">How Our ATS Resume Checker Helps You Succeed</h2>
+    
+    <div class="benefits-container">
+        <!-- Left Column -->
+        <div class="benefits-column">
+            <!-- Formatting -->
+            <div class="benefit-card">
+                <img src="pic1.png" alt="Formatting icon" class="benefit-icon">
+                <h3>Formatting</h3>
+                <p>Our resume grader ensures you won't have to worry about your resume format ever again. It'll look and feel just right for both recruiters and you.</p>
+            </div>
+            
+            <!-- Typos -->
+            <div class="benefit-card">
+                <img src="typo.png" alt="Typos icon" class="benefit-icon">
+                <h3>Typos</h3>
+                <p>Nearly 60% of employers reject resumes with typos. Don't take that risk. Use our resume scanner to catch errors and stay confident in your job search.</p>
+            </div>
+            
+            <!-- Summary Statement -->
+            <div class="benefit-card">
+                <img src="sum.png" alt="Summary icon" class="benefit-icon">
+                <h3>Summary Statement</h3>
+                <p>Whether you're a seasoned pro or a junior, our ATS resume scanner will help you craft a pitch-perfect resume summary or resume objective, packed with power words and accomplishments.</p>
+            </div>
+            
+            <!-- Measurable Results -->
+            <div class="benefit-card">
+                <img src="meas.png" alt="Results icon" class="benefit-icon">
+                <h3>Measurable Results</h3>
+                <p>Highlight your achievements with concrete numbers. Our resume checker's ready-made content helps you present your accomplishments effectively and compellingly.</p>
+            </div>
+        </div>
+        
+        <!-- Right Column -->
+        <div class="benefits-column">
+            <!-- Word Choice -->
+            <div class="benefit-card">
+                <img src="word.png" alt="Word choice icon" class="benefit-icon">
+                <h3>Word Choice</h3>
+                <p>Utilize our resume checker to craft each sentence with the precision of a hiring expert. Eliminate unnecessary fillers and save space, ensuring your resume is concise and impactful.</p>
+            </div>
+            
+            <!-- Length -->
+            <div class="benefit-card">
+                <img src="length.png" alt="Length icon" class="benefit-icon">
+                <h3>Length</h3>
+                <p>How long should a resume be? Don't worry about that. Our ATS resume checker recommends the ideal length based on your industry, seniority, and experience.</p>
+            </div>
+            
+            <!-- Contact Information -->
+            <div class="benefit-card">
+                <img src="contact.png" alt="Contact icon" class="benefit-icon">
+                <h3>Contact Information</h3>
+                <p>Your contact information is key to your career opportunities. Don't let a mistake cost you your dream job. Let us review your details to ensure employers connect with you, not someone else.</p>
+            </div>
+            
+            <!-- Completeness -->
+            <div class="benefit-card">
+                <img src="comp.png" alt="Completeness icon" class="benefit-icon">
+                <h3>Completeness</h3>
+                <p>A complete resume should include all necessary sections, with one or two extra sections. We'll scan your resume to see if there's anything you should add.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FAQ Section -->
+<div class="faq-section-solid">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    
+    <div class="faq-container">
+        <!-- Question 1 -->
+        <div class="faq-item">
+            <button class="faq-question">
+                Is the resume checker really free?
+                <span class="dropdown-icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Yes, our basic resume checking service is completely free. You can upload your resume and get instant feedback without any cost. We also offer premium services with more detailed analysis.</p>
+            </div>
+        </div>
+        
+        <!-- Question 2 -->
+        <div class="faq-item">
+            <button class="faq-question">
+                What file formats do you support?
+                <span class="dropdown-icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>We support PDF, DOC, and DOCX file formats. For best results, we recommend uploading your resume as a PDF.</p>
+            </div>
+        </div>
+        
+        <!-- Question 3 -->
+        <div class="faq-item">
+            <button class="faq-question">
+                How does the AI analyze my resume?
+                <span class="dropdown-icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Our AI checks your resume against hundreds of successful resumes in our database. It analyzes formatting, content structure, keyword usage, and more to provide personalized recommendations.</p>
+            </div>
+        </div>
+        
+        <!-- Question 4 -->
+        <div class="faq-item">
+            <button class="faq-question">
+                Is my resume data secure?
+                <span class="dropdown-icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Absolutely. We take data privacy very seriously. Your resume is only used for analysis and is never shared with third parties.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="resume.js"></script>
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="logo-container">
+                    <img src="resume.png" alt="profAile Logo" class="footer-logo-img">
+                    <span class="footer-logo-text">profAile</span>
+                </div>
+                <a href="https://github.com/abhiyadav135/ProfAIle-AI-Resume-Analyser.git" 
+                   target="_blank" 
+                   class="github-link">
+                    GitHub Repository
+                </a>
+                <div class="footer-tagline">Made To Make You Great</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
